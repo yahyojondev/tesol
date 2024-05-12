@@ -314,6 +314,7 @@ justify-content: space-between;
     width: 100%;
     max-width: 600px;
 }
+
 .about__left__bottom__title{
     font-size: 16px;
     font-family: Poppins;
@@ -761,9 +762,7 @@ outline: none;
 .about__show__btn{
     display: none;
 }
-.about__left__bottom{
-    display: flex;
-}
+
 
    }
    @media only screen and (min-width:1280px){
