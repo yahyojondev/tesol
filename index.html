@@ -123,13 +123,22 @@
                     <p>View All Credentials</p>
                   </div>
                 </div>
-                <button
-                  class="about__show__btn"
-                  onclick="document.querySelector('.about__left__bottom').style.display='block';"
-                >
-                  Show more
-                  <img src="./images/show.svg" alt="" />
-                </button>
+                <div class="btn__wrapper">
+                  <button
+                    class="about__show__btn"
+                    onclick="document.querySelector('.about__left__bottom').style.display='block';"
+                  >
+                    Show more
+                    <img src="./images/show.svg" alt="" />
+                  </button>
+                  <button
+                    class="hide__btn"
+                    onclick="document.querySelector('.about__left__bottom').style.display='none'"
+                  >
+                    Hide
+                    <img src="./images/hide.svg" alt="" />
+                  </button>
+                </div>
               </div>
               <hr />
               <div class="about__left__bottom">
