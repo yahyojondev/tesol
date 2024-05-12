@@ -584,7 +584,7 @@ outline: none;
  }
  .footer__wrapper__bottom{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
     justify-content: space-between;
  }
@@ -627,6 +627,9 @@ outline: none;
     color: #1970B9;
  }
  .footer__listing__item span{
+    display: none;
+ }
+ .footer__select__one{
     display: none;
  }
  /* about  */
@@ -687,6 +690,9 @@ outline: none;
     background-color: white;
     height: 500px;
 }
+.footer__wrapper__bottom{
+    flex-direction: row;
+}
 .footer__listing{
     display: flex;
     flex-direction: row;
@@ -698,6 +704,15 @@ outline: none;
     gap: 20px;
 }
 .footer__listing__item span{
+    display: flex;
+}
+.footer__list{
+    flex-direction: row;
+}
+.footer__select{
+    display: none ;
+}
+.footer__select__one{
     display: flex;
 }
    }
