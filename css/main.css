@@ -22,13 +22,13 @@ a{
 }
    /* header   */
    .header{
-    z-index: 9999;
+    /* z-index: 9999; */
     display: flex;
     align-items: center;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     height: 80px;
-    box-shadow: 0px 0px 5px 5px gray;
+    border-bottom: 2px solid white;
     background-color: #FFFF;
    }
    .navbar__wrapper{
