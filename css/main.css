@@ -590,7 +590,7 @@ outline: none;
  }
  .footer__list{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
  }
  .footer__list__item{
@@ -617,7 +617,7 @@ outline: none;
  }
  .footer__listing{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     gap: 20px;
  }
  .footer__listing__item{
@@ -625,6 +625,9 @@ outline: none;
     font-weight: 400;
     font-size: 14px;
     color: #1970B9;
+ }
+ .footer__listing__item span{
+    display: none;
  }
  /* about  */
    /* main  */
@@ -683,6 +686,19 @@ outline: none;
    .hero__img__right{
     background-color: white;
     height: 500px;
+}
+.footer__listing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer__listing__item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer__listing__item span{
+    display: flex;
 }
    }
    @media only screen and (min-width:1280px){
