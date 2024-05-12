@@ -521,7 +521,112 @@ gap: 50px;
 .about__right__box__bottom__box{
     background-color: white;
 }
-   /* about  */
+ footer{
+    box-shadow: 0px 0px 5px 5px gray;
+    padding: 50px 0px 100px;
+ } 
+ .footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+ }
+ .footer__wrapper__top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .footer__wrapper__top__left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .footer__wrapper__top__left__img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+ }
+ .footer__wrapper__top__left__wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .footer__wrapper__top__left__wrapper li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .footer__wrapper__top__left__wrapper__text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+ }
+ .footer__wrapper__top__left__wrapper__img{
+    width: 120px;
+ }
+ .footer__wrapper__top__right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .footer__wrapper__top__right p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #000;
+ }
+ .footer__wrapper__top__right select{
+border: none;
+font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+outline: none;
+ }
+ .footer__wrapper__bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+ }
+ .footer__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ .footer__list__item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .footer__list__item p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #000;
+ }
+ .footer__list__item__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+ .footer__list__item__list li{
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 14px;
+    color: #1970B9;
+ }
+ .footer__listing{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .footer__listing__item{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1970B9;
+ }
+ /* about  */
    /* main  */
 
 
@@ -592,5 +697,9 @@ gap: 50px;
     }
     .about__right__box__bottom__box{
         width: 380px;
+    }
+    .footer__list{
+        display: flex;
+        gap: 200px;
     }
    }
