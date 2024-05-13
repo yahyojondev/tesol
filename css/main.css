@@ -154,13 +154,14 @@ a{
    .select__wrapper{
     display: flex;
     align-items: center;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    gap: 20px;   
    }
    .select__box{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120px;
+    width: 50%;
     height: 40px;
     border: 2px solid gray;
     border-radius: 5px;
@@ -485,13 +486,13 @@ gap: 50px;
     height: 25px;
 }
 .about__right__text__img p{
-    font-size: 16px;
+    font-size: 14px;
     font-family: Poppins;
     font-weight: 400;
     color: #000;
 }
 .about__right__box__span{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
 .about__right__btn{
